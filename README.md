@@ -34,9 +34,6 @@ pip install -r requirements.txt
 3️⃣ Set up the .env file
 Create a .env file in the project root and add the following:
 
-ini
-Copy
-Edit
 DJANGO_SECRET_KEY=your_secret_key
 DEBUG=True
 DB_NAME=sitewomen_db
@@ -47,6 +44,7 @@ DB_PORT=5432
 EMAIL_HOST_PASSWORD=your_email_password
 SOCIAL_AUTH_GITHUB_SECRET=your_github_secret
 SOCIAL_AUTH_VK_OAUTH2_SECRET=your_vk_secret
+
 
 
 4️⃣ Apply migrations and run the server:
