@@ -1,0 +1,29 @@
+# Файлы базы данных
+*.sqlite3
+*.db
+*.json
+*.sql
+*.crt
+*.key
+*.pem
+# Статические файлы и медиа
+/staticfiles/
+/media/
+media/
+# Виртуальное окружение
+/venv/
+/env/
+/.venv/
+/.env/
+venv/
+# Локальные настройки
+*.pyc
+__pycache__/
+*.log
+*.pot
+*.py[cod]
+*~
+*.swp
+.DS_Store
+djvenv/
+.env
